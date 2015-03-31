@@ -25,21 +25,17 @@ a:link {
 	height: 44px;
 	width: 100%;
 	display: table;
-	margin: 7px;
+	padding: 6px 0 6px 0;
 }
 
 .logo {
 	float: left;
-	margin-left: 70px;
-	position: relative;
+	margin-left: 12%;
  }
 
-.logo a{
-	background: url(../img/logo.svg) no-repeat;
-	background-size: 60%;
-	position: relative;
-	display: table;
-	text-indent: -999999px;
+.logo img {
+	width: 130px;
+	height: 44px;
 }
 
 .menu {
@@ -64,8 +60,8 @@ a:link {
 	font-weight: 700;
 }
 
-.menu li a:hover {
-	color: #24a09d;s
+.menu li a:hover{
+    border-bottom: 2px solid #24a09d;
 }
 
 .hero {
