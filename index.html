@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
+	<title>Academia Marques Gym</title>
 	
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -11,17 +11,20 @@
 </head>
 <body>
 	<div class="container clearfix">
+		
 		<header class="header">
 			<div class="logo">
-				<img src="img/logo.svg" alt="Marques Gym">
+				<h1>
+					<a href="index.html" title="Marques Gym">Marques Gym</a>
+				</h1>
 			</div>
 			<nav class="menu">
 		        <ul>
-		         	<li><a href="#">Home</a></li>
-		         	<li><a href="#">Serviços</a></li>
+		         	<li><a href="index.html">Home</a></li>
+		         	<li><a href="#servicos">Serviços</a></li>
 		         	<li><a href="#">Horarios</a></li>
-		         	<li><a href="#">Fotos</a></li>
-		         	<li><a href="#">Contato</a></li>
+		         	<li><a href="#fotos">Fotos</a></li>
+		         	<li><a href="#contato">Contato</a></li>
 		        </ul>
      		</nav>
 		</header>
@@ -29,11 +32,192 @@
 		<div class="hero">
 			<div class="caixa">
 				<h1>Venha para a Marques Gym</h1>
-				<p>Aulas de pilates, spinning e zumba, além de
-equipamentos de qualidade para musculação</p>
+				<p>Aulas de pilates, spinning e zumba, além de equipamentos de qualidade para musculação</p>
 			</div>
+		
 		</div>
 		
+		<section class="servicos" id="servicos">
+			
+			<div class="servicos-titulo">
+				<h2>Serviços</h2>
+				<h4>________</h4>
+			</div>
+			
+			<div class="listadeservicos">
+				
+				<div class="aulas">
+					
+					<div class="musculacao">
+						<img src="img/icon-dumbell.svg" alt="Musculação">
+					</div>
+					
+					<h3>Musculação</h3>
+					<p>O objetivo primordial da Marques Gym é vender saúde. Por isso, contamos com os aparelhos mais modernos da linha nacional, distribuídos em uma ampla sala espelhada e climatizada</p>
+				</div>
+				
+				<div class="aulas">
+					
+					<div class="spinning">
+						<img src="img/icon-bike.svg" alt="Spinning">
+					</div>
+					
+					<h3>Spinning</h3>
+					<p>Aula ministrada através do uso de bicicletas que simulam um treinamento de ciclismo.</p>
+					<p>Possui significativo gasto calórico, e é aconselhado a clientes que desejam perder peso.</p>
+				</div>
+				
+				<div class="aulas">
+
+					<div class="lutas">
+						<img src="img/icon-luva.svg" alt="Lutas">
+					</div>
+
+					<h3>Lutas</h3>
+					<p>Aulas de artes marciais, com professores renomados, incluindo Jiu Jitsu e Defesa Pessoal Israelense.</p>
+				</div>
+
+				<div class="aulas">
+
+					<div class="ginastica">
+						<img src="img/icon-bola.svg" alt="Ginástica">
+					</div>
+
+					<h3>Ginástica</h3>
+					<p>Oferecemos várias aulas, incluindo: alongamento, ball training, circuito, gap, ginástica funcional, jump mix, local flex, pilates de solo, power local, step.</p>
+				</div>
+			</div>
+			
+		</section>
+
+		<section class="module parallax parallax-2">
+			
+			<div class="container">
+
+			</div>
+
+		</section>
+
+		<section class="module content">
+
+		</section>
+
+		<div class="parallax">
+		
+		</div>
+
+		<section class="fotos" id="fotos">
+			
+			<div class="fotos-titulo">
+				<h2>Galeria de fotos</h2>
+				<h4>______________</h4>
+			</div>
+
+			<div class="galeria">
+				
+				<div class="foto-1">
+					<img src="img/foto-01.jpg">
+				</div>
+
+				<div class="foto-2">
+					<img src="img/foto-02.jpg">
+				</div>
+
+				<div class="foto-3">
+					<img src="img/foto-03.jpg">
+				</div>
+
+				<div class="foto-4">
+					<img src="img/foto-04.jpg">
+				</div>
+
+				<div class="foto-5">
+					<img src="img/foto-03.jpg">
+				</div>
+
+				<div class="foto-6">
+					<img src="img/foto-04.jpg">
+				</div>
+
+				<div class="foto-7">
+					<img src="img/foto-01.jpg">
+				</div>
+
+				<div class="foto-8">
+					<img src="img/foto-02.jpg">
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="map">
+			<iframe class="map-google" src="https://www.google.com/maps/embed/v1/place?q=Marques%20Gym%20M%C3%A9ier%20Rio%20de%20Janeiro&key=AIzaSyAfmV2rbsb3ldUk8guiZVp0K_hJ5LHL6sw"></iframe>
+		</section>
+		
+		<section class="contato" id="contato">
+			
+			<div class="contato-titulo">
+				<h2>Contato</h2>
+				<h4>_______</h4>
+			</div>
+
+			<div class="contato-form">
+				
+				<form id="form" class="form" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8">
+				   
+				   <div class="content">
+
+				        <div id="section0" >
+				            
+				            <div class="field"><label for="Nome">Nome</label><input type="text" id="Nome" name="Nome" placeholder="Escreva seu nome." required>
+				            </div>
+				            
+				            <div class="field"><label for="Email">E-mail</label><input type="email" id="Email" name="Email" placeholder="Escreva seu e-mail." required>
+				            </div>
+
+				            <div class="field"><label for="Mensagem">Mensagem</label><textarea id="Mensagem" name="Mensagem" pattern="Escreva sua mensagem." wrap="hard" required></textarea>
+				            </div>
+
+				            <div class="field"><label for="Enviar"></label><input type="submit" id="Enviar" name="Enviar" required>
+				            </div>
+
+				        </div>
+
+				    </div>
+
+				</form>
+
+			</div>
+
+		</section>
+
+		<footer class="footer">
+
+			<div class="info">
+				<div class="logo-footer">
+						<img src="img/logo-footer.svg" alt="Academia Marques Gym">
+				</div>
+				
+				<div class="dados">
+					<p>Academia Marques Gym</p>
+					<p>Rua Adolfo Bergamini, 324</p>
+					<p>Engenho de Dentro</p>
+					<p>Rio de Janeiro - RJ</p>
+					<p>20730-000, Brasil</p>
+					<p>(21) 3274-6794</p>
+				</div>
+
+			</div>
+
+		</footer>
+
+		<div class="creditos">
+			<p>© 2015 Antonio Pires</p>
+		</div>
+			
+
 	</div>
+
 </body>
 </html>
